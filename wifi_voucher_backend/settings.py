@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "news",
     "gallery",
     "leaders",
+    "sms",
 ]
 
 # =========================================================
@@ -198,3 +199,9 @@ FILE_UPLOAD_MAX_MEMORY_SIZE = None
 DATA_UPLOAD_MAX_MEMORY_SIZE = None
 DATA_UPLOAD_MAX_NUMBER_FIELDS = None
 DATA_UPLOAD_MAX_NUMBER_FILES = None
+
+
+AT_USERNAME = "bahi"                # your AT production username
+AT_API_KEY = "atsk_46fc91c88d7401905c62e9c4394166f2ba68b742c1162eac139d7f0d4b875bac51a0f45a"                 # new key from AT dashboard
+AT_SENDER_ID = "BAHI SDA"                         # optional shortcode
+AT_BASE_URL = "https://api.africastalking.com/version1/messaging"
